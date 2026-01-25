@@ -19,10 +19,10 @@ module.exports = {
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923427582273",  // Owner's WhatsApp number
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Jᴀᴡᴀᴅ TᴇᴄʜX",           // Owner's name
-    DEV: process.env.DEV || "923427582273",                     // Developer's contact number
-    DEVELOPER_NUMBER: '923427582273@s.whatsapp.net',            // Developer's WhatsApp ID
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923243252787",  // Owner's WhatsApp number
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "AZIZ-BOT",           // Owner's name
+    DEV: process.env.DEV || "923243252787",                     // Developer's contact number
+    DEVELOPER_NUMBER: '923243252787@s.whatsapp.net',            // Developer's WhatsApp ID
 
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",              // Enable/disable auto-reply
