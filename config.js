@@ -66,3 +66,5 @@ module.exports = {
     ADMIN_ACTION: process.env.ADMIN_ACTION || "false", // true if want see admin activity 
 };
         
+global.GDRIVE_ID = process.env.DRIVE_FOLDER_ID || ""; // Vercel variable se ID uthayega
+global.GDRIVE_JSON = process.env.GOOGLE_DRIVE || ""; // JSON credentials
