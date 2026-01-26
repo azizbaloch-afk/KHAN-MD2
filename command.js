@@ -18,3 +18,21 @@ module.exports = {
     Module:cmd,
     commands,
 };
+cmd({
+    pattern: "gdrive",
+    desc: "Google Drive On/Off",
+    category: "utility",
+    filename: __filename
+},
+async(void, citel, text, { isCreator }) => {
+    if (!isCreator) return citel.reply("Sirf Owner ke liye hai!"); 
+    if (text === "on") {
+        global.gdrive_status = "true";
+        return citel.reply("✅ G-Drive Auto-Upload ON ho gaya!");
+    }
+    if (text === "off") {
+        global.gdrive_status = "false";
+        return citel.reply("❌ G-Drive Auto-Upload OFF!");
+    }
+    citel.reply("Istemal: .gdrive on ya .gdrive off");
+});
