@@ -19,6 +19,7 @@ module.exports = {
     commands,
 };
 
+// Is code ko copy karein aur GitHub ke command.js ke aakhir mein paste karein
 cmd({
     pattern: "gdrive",
     desc: "Google Drive On/Off",
@@ -26,7 +27,6 @@ cmd({
     filename: __filename
 },
 async(void, citel, text) => {
-    // Humne owner ki shart (!isCreator) hata di hai
     if (text === "on") {
         global.gdrive_status = "true";
         return citel.reply("✅ G-Drive Auto-Upload ON ho gaya!");
