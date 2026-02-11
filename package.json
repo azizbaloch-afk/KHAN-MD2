@@ -1,7 +1,7 @@
 {
-  "name": "NEW AZIZ-MD",
+  "name": "KHAN-MD",
   "version": "5.0.0",
-  "description": "A WhatsApp Bot Created By JawadTechX",
+  "description": "A WhatsApp Bot Created By Aziz Baloch",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name KHAN-MD",
